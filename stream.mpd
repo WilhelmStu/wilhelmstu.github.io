@@ -15,19 +15,19 @@
 	<Period id="0" start="PT0.0S">
 		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" maxFrameRate="60/1" maxWidth="1920" maxHeight="1080" par="16:9">
 			<Representation id="0" mimeType="video/mp4" codecs="hev1" bandwidth="300000" width="640" height="360" sar="1:1" frameRate="30/1">
-				<SegmentTemplate timescale="1000000" duration="4000000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="1000000" duration="4000000" initialization="https://wilhelmstu.github.io/init-stream$RepresentationID$.m4s" media="https://wilhelmstu.github.io/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 				</SegmentTemplate>
 			</Representation>
 			<Representation id="1" mimeType="video/mp4" codecs="hev1" bandwidth="900000" width="960" height="540" sar="1:1" frameRate="60/1">
-				<SegmentTemplate timescale="1000000" duration="4000000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="1000000" duration="4000000" initialization="https://wilhelmstu.github.io/init-stream$RepresentationID$.m4s" media="https://wilhelmstu.github.io/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 				</SegmentTemplate>
 			</Representation>
 			<Representation id="2" mimeType="video/mp4" codecs="hev1" bandwidth="2400000" width="1280" height="720" sar="1:1" frameRate="60/1">
-				<SegmentTemplate timescale="1000000" duration="4000000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="1000000" duration="4000000" initialization="https://wilhelmstu.github.io/init-stream$RepresentationID$.m4s" media="https://wilhelmstu.github.io/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 				</SegmentTemplate>
 			</Representation>
 			<Representation id="3" mimeType="video/mp4" codecs="hev1" bandwidth="4500000" width="1920" height="1080" sar="1:1" frameRate="60/1">
-				<SegmentTemplate timescale="1000000" duration="4000000" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
+				<SegmentTemplate timescale="1000000" duration="4000000" initialization="https://wilhelmstu.github.io/init-stream$RepresentationID$.m4s" media="https://wilhelmstu.github.io/chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
 				</SegmentTemplate>
 			</Representation>
 		</AdaptationSet>
